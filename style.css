@@ -1,0 +1,715 @@
+html{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  background: rgb(248, 247, 247);
+}
+
+body{
+  margin-top: 0px;
+}
+
+#wrapper{
+  border-top:solid 8px #6CC6C4;
+  width: 100%;
+}
+
+header{
+  width: 100%;
+}
+
+footer{
+  height: 140px;
+}
+
+.logoimg{
+  margin: 0;
+}
+
+.kyatticopy{
+  font-size: 12px;
+}
+
+.kyatticopy p{
+  margin: 0;
+}
+
+.phone{
+  font-size: 25px;
+}
+
+.phone p{
+  margin: 0;
+}
+
+.yoyaku{
+  font-size: 15px;
+  border: solid 1px gray;
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.yoyaku p{
+  margin: 0;
+}
+
+.red{
+  color: rgb(170, 26, 26);
+}
+
+.headerinfo{
+  text-align: center;
+}
+
+.buttons{
+  height: 80px;
+}
+
+.sub{
+  font-size: 13px;
+}
+
+*{
+  word-break: break-all;
+}
+
+*{box-sizing: border-box;
+}
+
+.headerinfo{
+  text-align: center;
+}
+
+.buttons{
+  background: #6CC6C4;
+  margin: 0 ;
+  border-radius: 6px;
+  border: solid 0.1px #5fa7a5;
+  text-decoration: none;
+  text-align: center;
+  vertical-align: middle;
+  color: white;
+}
+
+.boxtext{
+  margin-top: 17px;
+}
+
+.buttons:hover{
+  opacity: 0.8;
+}
+
+.footermenu{
+  background: #6CC6C4;
+  border-radius: 5px;
+}
+
+footer ul{
+  display: flex;
+}
+
+.footermenu li{
+list-style-type: circle;
+margin-left: 35px;
+color: white;
+}
+
+.footermenu a{
+  text-decoration: none;
+}
+
+.copyright{
+  position: relative;
+  top: -30px;
+  text-align: center;
+  font-size: 85%;
+}
+
+/* 診療案内ページ */
+
+.serviceminitext{
+  font-size: 1px;
+  text-align: left;
+}
+
+.servicetext{
+  background-color: white;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+.servicetext p{
+  font-size: 85%;
+}
+
+.servicetext h1{
+  position: relative;
+  right: 10px;
+  font-size: 130%;
+  color: white;
+  padding: 10px 10px 10px 10px;
+  background-color: #6CC6C4;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.clo{
+  margin-top: 40px;
+}
+
+.nijuu{
+  border: double  #6CC6C4;
+}
+
+.map h2{
+  color: #6CC6C4;
+  font-size: 110%;
+}
+
+.servicetext .why h2{
+  font-size: 100%;
+  color: #6CC6C4;
+}
+
+.servicetext .clo h2{
+  font-size: 105%;
+  color: rgb(66, 66, 66);
+  padding-bottom: 5px;
+  border-bottom: solid 3px #6CC6C4;
+}
+
+table{
+  border-collapse: collapse;
+  width: 95%;
+  height: 150px;
+  margin: 10px 0px 15px 0px;
+  border-color: rgb(78, 78, 78);
+  text-align: center;
+}
+
+th{
+  background-color: rgb(153, 153, 153);
+  background-clip: padding-box; 
+}
+
+.info1{
+  margin: 0px 0px 0px 15px;
+}
+
+h3{
+  color: rgb(56, 56, 56);
+}
+
+.info2{
+  display: flex;
+}
+
+.info2 p{
+  position: relative;
+  top: 5px;
+}
+
+.info3{
+  display: flex;
+}
+
+.info3 p{
+  position: relative;
+  top: 5px;
+}
+
+@media(max-width: 1000px){
+
+  .yoyaku{
+    width: 300px;
+  }
+
+  header{
+    height: 400px;
+  }
+
+
+  .headerinfo{
+    text-align: center;
+  }
+
+  .buttons{
+    font-size: 20px;
+  }
+
+  .container1{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container2{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container3{
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  a.buttons.home{
+    width: 50%;
+  }
+
+  a.buttons.clinic{
+    width: 50%;
+  }
+
+  a.buttons.service{
+    width: 50%;
+  }
+
+  a.buttons.staff{
+    width: 50%;
+  }
+
+  a.buttons.access{
+    width: 50%;
+  }
+
+  .boxtext{
+    margin-top: 17px;
+  }
+
+  .sidemenu{
+    margin-top: 50px;
+  }
+
+  .sidemenuB{
+    margin-top: 50px;
+  }
+
+
+  .servicetext h1{
+    width: 102.7%;
+  }
+
+  .news{
+    background: white;
+    margin: 2% 2% 7% 2%;
+    padding: 1%;
+  }
+
+  .news h1{
+    border-bottom:solid 4px #6CC6C4;
+    color: rgb(112, 111, 111);
+    font-size: 20px;
+  }
+
+  .news h2{
+    font-size: 13px;
+    margin-bottom: 18px;
+    margin-top: 30px;
+  }
+
+  .news p{
+    font-size: 13px;
+    color: rgb(110, 110, 110);
+    padding-bottom: 6px;
+    border-bottom: dashed 1px rgb(212, 212, 212);
+  }
+
+  .ippannsika{
+    border: solid 2px #6CC6C4;
+    border-radius: 6px;
+    background: white;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .ippannsika{
+    text-decoration: none;
+  }
+
+  .ippannsika p{
+    background-color: #6CC6C4;
+    color: white;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 6px 6px 0px 0px;
+    position: relative;
+    right: 1.3px;
+    width: 100.6%;
+  }
+
+  .sinnbisika{
+    border: solid 2px #6CC6C4;
+    border-radius: 6px;
+    background: white;
+    margin-top: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 20px;
+  }
+
+  .sinnbisika a{
+    text-decoration: none;
+  }
+
+  .sinnbisika p{
+    background-color: #6CC6C4;
+    color: white;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 6px 6px 0px 0px;
+    position: relative;
+    right: 1.3px;
+    width: 100.6%;
+  }
+
+  ul{
+    padding:0px ;
+  }
+  
+  .sidemenu li{
+    display: inline-block;
+    color: black;
+    width: 95%;
+    border-bottom: solid 1px #6CC6C4;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    margin: 2px 2px 2px 20px;
+  }
+
+  .sidemenuB li{
+    display: inline-block;
+    color: black;
+    width: 95%;
+    border-bottom: solid 1px #6CC6C4;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    margin: 2px 2px 2px 20px;
+  }
+
+  .footerinfo{
+    text-align: right;
+    width: 100%;
+    margin: 0;
+  }
+
+  .footerinfo h1{
+    position: relative;
+    left: 0px;
+    top: -10px;
+    font-size: 80%;
+    margin: 0;
+  }
+
+  .footerinfo p{
+    margin: 0;
+  }
+
+  .footerinfo .site{
+    position: relative;
+    left: 150px;
+    top: -8px;
+    margin: 0;
+  }
+
+  .footerinfo .tel{
+     position: relative;
+     left: 0px;
+     top: 15px;
+  }
+
+  .copyright{
+    margin-top: 50px;
+    border-top: solid 1px #6CC6C4;
+  }
+}  
+
+@media(min-width: 1000px){
+  /* 大きい方のサイズ */
+  .yoyaku{
+    width: 300px;
+  }
+
+  body{
+    margin: 0;
+  }
+
+  .big{
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  .headerinfo{
+    text-align: center;
+  }
+
+  .flex{
+    display: flex;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+
+  .buttons{
+    font-size: 15px;
+  }
+
+  .container1{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .container2{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .container3{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+  }
+
+  a.buttons.home{
+    width: 180px;
+  }
+
+  a.buttons.clinic{
+    width: 180px;
+  }
+
+  a.buttons.service{
+    width: 180px;
+  }
+
+  a.buttons.staff{
+    width: 180px;
+  }
+
+  a.buttons.access{
+    width: 180px;
+  }
+
+  .boxtext{
+    margin-top: 17px;
+  }
+
+  .servicetext h1{
+    width: 640px;
+    position: relative;
+    left: 0px;
+  }
+
+  .news{
+    background: white;
+    padding: 2px;
+    width: 640px;
+  }
+
+  .news h1{
+    border-bottom:solid 4px #6CC6C4;
+    color: rgb(112, 111, 111);
+    font-size: 20px;
+  }
+
+  .yoko{
+    display: flex;
+    color: rgb(110, 110, 110);
+    padding-bottom: 6px;
+    border-bottom: dashed 1px rgb(212, 212, 212);
+  }
+
+  .news h2{
+    font-size: 13px;
+    margin-bottom: 18px;
+    margin-top: 30px;
+    flex: 0 0 120px;
+    text-align: left;
+  }
+
+  .news p{
+    flex: auto;
+    text-align: left;
+    margin-left: 10px;
+    font-size: 13px;
+    margin-top: 30px;
+  }
+
+  .ippannsika{
+    border: solid 2px #6CC6C4;
+    border-radius: 6px;
+    background: white;
+    margin-left: 2px;
+    margin-right: 2px;
+    width: 240px;
+    text-decoration: none;
+    text-align: left;
+  }
+
+  .ippannsika p{
+    background-color: #6CC6C4;
+    color: white;
+    margin: 0;
+    border-radius: 6px 6px 0px 0px;
+    position: relative;
+    right: 1.3px;
+    width: 238px;
+    height: 45px;
+    top: -2px;
+    padding-top: 7px;
+    text-align: left;
+    font-size: 25px;
+    padding-left: 10px;
+  }
+
+  .sinnbisika{
+    border: solid 2px #6CC6C4;
+    border-radius: 6px;
+    background: white;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width: 240px;
+    text-align: left;
+  }
+
+  .sinnbisika a{
+    text-decoration: none;
+  }
+
+  .sinnbisika p{
+    background-color: #6CC6C4;
+    color: white;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    border-radius: 6px 6px 0px 0px;
+    position: relative;
+    right: 1.9px;
+    width: 240px;
+    height: 45px;
+    top: -2px;
+    padding-top: 7px;
+    padding-left: 10px;
+    text-align: left;
+    font-size: 25px;
+  }
+
+  main{
+    display: flex;
+    flex-flow: row-reverse;
+    text-align: center;
+  }
+
+  main .img{
+    position: relative;
+    top: 100px;
+  }
+
+  .sidemenu{
+    margin-top: 0px;
+  }
+
+  .sidemenuB{
+    position: relative;
+    top: 13px;
+    margin-top: 0px;
+  }
+
+  ul{
+    padding:0px ;
+  }
+  
+  .listsample li{
+    list-style-type: none !important;
+    list-style-image: none !important;
+    margin: 5px 0px 5px 0px !important;
+  }
+  
+  .hishigata li{
+    width: 100px;
+    background-color: #fff;
+    position: relative;
+    padding-top: 2px;
+    padding-left: 20px;
+  }
+  
+  .hishigata li::after{
+    content: '';
+    display: block;
+    position:absolute;
+    background: rgba(32, 141, 132, 0.555);
+    width: 9px;
+    height: 9px;
+    top: 8px;
+    left: 5px;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+  }
+  
+  .sidemenu li{
+    display: inline-block;
+    color: black;
+    width: 200px;
+    border-bottom: solid 1px #6CC6C4;
+  }
+
+  .sidemenuB li{
+    display: inline-block;
+    color: black;
+    width: 200px;
+    border-bottom: solid 1px #6CC6C4;
+  }
+
+  .footermenu{
+    width: 900px;
+    text-align: center;
+  }
+
+  .footerinfo{
+    text-align: right;
+    width: 100%;
+    margin: 0;
+  }
+
+  .footerinfo h1{
+    position: relative;
+    left: 0px;
+    top: -10px;
+    font-size: 15px;
+    margin: 0;
+  }
+
+  .footerinfo p{
+    margin: 0;
+  }
+
+  .footerinfo .site{
+    position: relative;
+    left: 150px;
+    top: -8px;
+    margin: 0;
+  }
+
+  .footerinfo .tel{
+     position: relative;
+     left: 0px;
+     top: 15px;
+  }
+
+  .copyright{
+    margin-top: 50px;
+    border-top: solid 1px #6CC6C4;
+  }
+
+  .right{
+    width: 100%;
+  }
+
+}
